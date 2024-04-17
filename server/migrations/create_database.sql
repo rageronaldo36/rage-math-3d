@@ -1,0 +1,5 @@
+CREATE DATABASE rage-math-3d;
+CREATE USER rage-math-3d_user;
+GRANT ALL PRIVILEGES ON DATABASE rage-math-3d TO rage-math-3d_user;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO rage-math-3d_user;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO rage-math-3d_user;

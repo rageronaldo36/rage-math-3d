@@ -1,0 +1,21 @@
+{
+  "name": "rage-math-3d-react",
+  "description": "A webapp for creating and sharing interactive 3d mathematical visualizations",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

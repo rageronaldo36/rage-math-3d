@@ -1,0 +1,8 @@
+# rename this to .env and update the DATABASE_URL
+# Something of form:
+#
+# DATABASE_URL=postgres://[user[:password]@][netloc][:port][,...][/dbname]
+#
+# like:
+DATABASE_URL=postgres://rage-math-3d_user:abc-123@localhost:5432/rage-math-3d
+NODE_ENV=development
